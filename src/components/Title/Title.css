@@ -1,0 +1,18 @@
+.Title {
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 0 40px;
+  position: relative;
+  top: 15%;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+@media(min-width: 500px) {
+  h1 {
+    font-size: 22px;
+  }
+}

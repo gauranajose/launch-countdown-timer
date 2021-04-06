@@ -1,0 +1,29 @@
+.Footer {
+  width: 100%;
+  height: 20%;
+  background-repeat: no-repeat !important;
+  background-size: 300% !important;
+  background-position: right -150px bottom !important;
+  position: fixed;
+  bottom: 0px;
+}
+
+.Attribution {
+  font-size: 11px;
+  text-align: center;
+  position: inherit;
+  width: 100%;
+  bottom: 30px;
+  color: #CCC;
+}
+.Attribution a {
+  color: #8385A9;
+}
+
+@media (min-width: 500px) {
+  .Footer {
+    height: 30%;
+    background-size: 100% !important;
+    background-position: bottom !important;
+  }
+}

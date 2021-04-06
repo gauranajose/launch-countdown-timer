@@ -1,0 +1,19 @@
+.SocialMedia {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: inherit;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img {
+  cursor: pointer;
+}
+
+@media(min-width: 500px) {
+  .SocialMedia {
+    bottom: 100px;
+  }
+}
